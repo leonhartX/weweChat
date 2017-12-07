@@ -7,6 +7,7 @@
     height: calc(100vh - 160px); /* Height - Header - Footer - Search Input */
     overflow-x: hidden;
     overflow-y: auto;
+    background: #333
 }
 
 .chat {
@@ -32,7 +33,7 @@
 
     &.active,
     &:hover {
-        background: #e8edf3;
+        background: #607288;
     }
 
     &.sticky::before {
